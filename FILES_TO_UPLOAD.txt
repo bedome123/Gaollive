@@ -1,0 +1,27 @@
+Essential Files for Upload:
+
+FOLDERS:
+📁 client/ (entire folder with all subfolders)
+📁 server/ (entire folder with all files)
+📁 shared/ (contains database schema)
+
+CONFIGURATION FILES:
+📄 package.json (dependencies)
+📄 vercel.json (deployment config)
+📄 tsconfig.json (TypeScript config)
+📄 vite.config.ts (build config)
+📄 tailwind.config.ts (styling config)
+📄 drizzle.config.ts (database config)
+
+OPTIONAL FILES:
+📄 README.md (project description)
+📄 .gitignore (ignore rules)
+
+DO NOT UPLOAD:
+❌ node_modules/ (will be installed automatically)
+❌ .git/ (version control, auto-created)
+❌ dist/ (build output, generated automatically)
+❌ .cache/ (temporary files)
+
+Total project size: ~200 files
+Essential for deployment: Above folders + config files

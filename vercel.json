@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": null,
+  "functions": {
+    "server/index.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/server/index.js"
+    },
+    {
+      "src": "/ws",
+      "dest": "/server/index.js"
+    },
+    {
+      "src": "/admin/api/(.*)",
+      "dest": "/server/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
