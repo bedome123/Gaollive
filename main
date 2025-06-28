@@ -1,11 +1,1 @@
-0000000000000000000000000000000000000000 6f479c38d51994b8a0d5aa174dc772c53d2dd5a0 abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750820901 +0000	commit (initial): Initial commit
-6f479c38d51994b8a0d5aa174dc772c53d2dd5a0 4e5faa2bbccca3c606ee659931f70181ac603a16 abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750821273 +0000	commit: Set up website structure with components and Arabic localization
-4e5faa2bbccca3c606ee659931f70181ac603a16 15579c7f7fa7b827420e9ac6cac14ff89030cefc abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750821604 +0000	commit: Enhance website to include more tournaments and provide better match coverage
-15579c7f7fa7b827420e9ac6cac14ff89030cefc 37d8101692508db6243a75c660c2bf696fcfa7f9 abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750822327 +0000	commit: Store and retrieve sports data such as teams, matches, and tournaments
-37d8101692508db6243a75c660c2bf696fcfa7f9 ae9bbcae45fce669a9803c1f70a0fea62524f9e6 abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750822811 +0000	commit: Enhance the platform with live updates, admin tools, and better streaming
-ae9bbcae45fce669a9803c1f70a0fea62524f9e6 cee3d71d2d5a8e2298722761cf5a200695e3c1a1 abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750823800 +0000	commit: Provide guidance on how to deploy the site using free options
-cee3d71d2d5a8e2298722761cf5a200695e3c1a1 0ea01697b57f1a27757090320c3cff877857359a abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750824032 +0000	commit: Add deployment guide and configuration files for hosting on Vercel
-0ea01697b57f1a27757090320c3cff877857359a 72cc079661be62be2d4a13209166e76308078d4a abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750824303 +0000	commit: Provide step-by-step instructions for deploying the live streaming website
-72cc079661be62be2d4a13209166e76308078d4a f36750f6aa4f8cd414b5b182da0727eae1a58d8d abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750824455 +0000	commit: Provide step-by-step instructions guiding users to upload and deploy the project
-f36750f6aa4f8cd414b5b182da0727eae1a58d8d 8b95d5f760b41b85aaed1b621c90d91446d02bd0 abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750824578 +0000	commit: Provide instructions to assist users with uploading their projects to GitHub
-8b95d5f760b41b85aaed1b621c90d91446d02bd0 a000f3a3edf0bc37eb79c880bc39059f9cdebd30 abdomhady <43492949-abdomhady@users.noreply.replit.com> 1750825988 +0000	commit: Saved your changes before starting work
+a000f3a3edf0bc37eb79c880bc39059f9cdebd30
