@@ -1,20 +1,26 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "client/package.json", "use": "@vercel/static-build" },
-    { "src": "server/index.js", "use": "@vercel/node" }
-  ],
+  "buildCommand": "cd client && npm install && npm run build",
+  "outputDirectory": "client/dist",
+  "installCommand": "cd client && npm install",
   "routes": [
-    { "src": "/api/(.*)", "dest": "/server/index.js" },
-    { "src": "/ws", "dest": "/server/index.js" },
-    { "src": "/admin/api/(.*)", "dest": "/server/index.js" },
-    { "src": "/(.*)", "dest": "/client/$1" }
-  ],
-  "functions": {
-    "server/index.js": {
-      "runtime": "nodejs18.x"
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/ws",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/admin/api/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/client/dist/index.html"
     }
-  },
+  ],
   "env": {
     "NODE_ENV": "production"
   }
